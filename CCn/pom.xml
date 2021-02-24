@@ -1,0 +1,25 @@
+<project>
+ <modelVersion>4.0.0</modelVersion>
+ <groupId>sime</groupId>
+ <artifactId>ccnovel</artifactId>
+ <version>1.0</version>
+ <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+
+<dependencies>
+    <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/weka-stable -->
+<dependency>
+    <groupId>nz.ac.waikato.cms.weka</groupId>
+    <artifactId>weka-stable</artifactId>
+    <version>3.8.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/net.sf.meka/meka -->
+<dependency>
+    <groupId>net.sf.meka</groupId>
+    <artifactId>meka</artifactId>
+    <version>1.9.4</version>
+</dependency>
+</dependencies>
+</project>
